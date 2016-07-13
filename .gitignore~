@@ -15,6 +15,3 @@
 /log/*
 !/log/.keep
 /tmp
-
-# config aws key
-/config/aws.yml
