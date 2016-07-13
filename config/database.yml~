@@ -26,6 +26,7 @@ test:
 
 production:
   adapter: postgresql
-  database: database_production
+  database: etsydemo_production
   pool: 5
   timeout: 5000
+  username: saschakohler
