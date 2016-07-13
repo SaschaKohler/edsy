@@ -26,8 +26,4 @@ test:
 
 production:
   adapter: postgresql
-  database: d8jv6l5ucasa
-  pool: 5
-  timeout: 5000
-  username: bxukfljifrotmj
-  password: S4ZSEWpPtQHf_72mggb9ZWejOp
+  url: <%= ENV['DATABASE_URL'] %>
