@@ -76,6 +76,9 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  
+  # devise needs it please change host to production
+  config.action_mailer.default_url_options = { :host => 'localhost:3000 }
 
   # Amazon Web Services S3
   config.paperclip_defaults = {
