@@ -78,7 +78,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   
   # devise needs it please change host to production
-  config.action_mailer.default_url_options = { :host => 'localhost:3000 }
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
   config.paperclip_defaults = {
    :storage => :s3,
